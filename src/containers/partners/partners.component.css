@@ -1,0 +1,14 @@
+.partners-component {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    width: 120%;
+}
+.partners-component-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 177px;
+    height: 88px;
+}

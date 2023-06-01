@@ -1,0 +1,57 @@
+.continue-watching-component-container {
+}
+
+.continue-watching-title {
+  margin-bottom: 24px;
+}
+
+.continue-watching-title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.005em;
+  color: #f9f9f9;
+}
+
+.continue-watching-movies-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 16px;
+  width: 2189px;
+  margin: 0 auto;
+}
+
+.continue-watching-movies-card {
+  width: 425px;
+  height: 310px;
+}
+.continue-watching-movie-card-details {
+  margin-top: 194px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  /* align-items: center; */
+}
+.continue-watching-movies-card p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #f9f9f9;
+}
+
+.continue-watching-movies-card span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #78828a;
+  margin: 9px 0;
+}

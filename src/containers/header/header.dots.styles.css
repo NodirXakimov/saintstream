@@ -1,0 +1,18 @@
+.header-dots-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: flex-end;
+}
+.header-dots-container span {
+  width: 9px;
+  height: 9px;
+  background: #ffffff;
+  opacity: 0.3;
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header-dots-container span.active {
+    opacity: 1;
+}

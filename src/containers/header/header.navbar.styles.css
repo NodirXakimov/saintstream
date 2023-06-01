@@ -1,0 +1,40 @@
+.header-navbar-container {
+  padding: 39px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navbar-brand img {
+  width: 153.62px;
+}
+
+.header-navbar-menu {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.header-navbar-menu li:first-child {
+    font-weight: 800;
+}
+
+.header-navbar-status {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    width: 150px;
+}
+
+.header-navbar-status-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}

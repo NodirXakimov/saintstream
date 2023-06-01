@@ -1,0 +1,12 @@
+.header {
+    background-image: url('../../assets/images/bg/Mandalorian.png');
+    height: 648px;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center center;
+}
+.header-container {
+    /* background-color: orange; */
+    width: 1290px;
+    margin: 0 auto;
+}

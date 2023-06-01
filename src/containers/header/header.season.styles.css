@@ -1,0 +1,125 @@
+/* .header-season {
+    
+} */
+
+.header-season-label {
+  display: inline-block;
+  padding: 4px 16px;
+  width: 86px;
+  height: 28px;
+  background: #0d0c0f;
+  border-radius: 16px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #f9f9f9;
+}
+
+.header-season-title {
+  margin-top: 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+
+.header-season-categories {
+  display: inline-block;
+  margin-top: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  color: #9ca4ab;
+}
+.header-season-description {
+  width: 506px;
+  margin-top: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+
+.header-season-buttons {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.header-season-button-play {
+  padding: 12px 24px;
+  width: 146px;
+  height: 46px;
+  background: #00925d;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  border: none;
+  gap: 10px;
+}
+
+.header-season-button-watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 10px;
+  width: 175px;
+  height: 46px;
+  background: #28262d;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  color: #f9f9f9;
+  border: none;
+}
+.header-season-button-add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  gap: 10px;
+  width: 181px;
+  height: 46px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+  background: linear-gradient(
+    358.93deg,
+    #0d0c0f 0.83%,
+    rgba(13, 12, 15, 0.85) 28.55%,
+    rgba(13, 12, 15, 0.26) 57.53%,
+    rgba(13, 12, 15, 0.284314) 70.66%,
+    #0d0c0f 103.18%
+  );
+}
