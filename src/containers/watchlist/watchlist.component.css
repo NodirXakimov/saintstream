@@ -1,0 +1,83 @@
+.watchlist-title {
+  width: 1365px;
+  height: 32px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.005em;
+  color: #f9f9f9;
+  margin-bottom: 24px;
+}
+.watchlist-items-container {
+  position: absolute;
+  width: 1464px;
+  height: 256px;
+
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+.watchlist-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 280px;
+  height: 251px;
+}
+.watchlist-item-image-container {
+  width: 280px;
+  height: 183px;
+}
+.watchlist-item-image-container img {
+  /* width: 100%; */
+}
+.watchlist-item .watchlist-item-title {
+  width: 280px;
+  height: 24px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #f9f9f9;
+}
+
+.watchlist-item .watchlist-item-rating-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 240px;
+  height: 20px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #78828a;
+  margin-top: 4px;
+}
+.watchlist-item .watchlist-item-rating-container span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
