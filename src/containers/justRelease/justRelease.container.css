@@ -1,0 +1,9 @@
+.just-release-container {
+  width: 1440px;
+  height: 548px;
+  padding: 40px 0px 40px 75px;
+  background-color: #0D0C0F;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}

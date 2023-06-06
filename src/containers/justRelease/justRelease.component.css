@@ -1,0 +1,79 @@
+.just-release-title {
+  width: 1365px;
+  height: 32px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.005em;
+  color: #f9f9f9;
+  margin-bottom: 24px;
+}
+
+.just-release-cards {
+  width: 1464px;
+  height: 412px;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 16px;
+  position: absolute;
+}
+.just-release-cards .just-release-card {
+  width: 280px;
+  height: 412px;
+}
+.just-release-card-description-container {
+  margin-top: 296px;
+  padding: 48px 20px 20px 20px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 78.02%);
+}
+.just-release-card-description-container.first {
+  padding-top: 24px;
+}
+.just-release-cards .just-release-card .just-release-card-title {
+  width: 240px;
+  height: 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #f9f9f9;
+}
+.just-release-cards .just-release-card .just-release-card-title.first {
+  height: 48px;
+}
+.just-release-cards .just-release-card .just-release-card-rating-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 240px;
+  height: 20px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #78828a;
+  margin-top: 4px;
+}
+.just-release-cards
+  .just-release-card
+  .just-release-card-rating-container
+  span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
